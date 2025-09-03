@@ -8,20 +8,9 @@
 </head>
 <body>
     <h1>Digital clock using javascript</h1>
-
-
     <div class="container">
         <div id="banner">Your local time</div>
         <button class="btn"></button>
     </div>
-
-    <script src="script.js">
-        let clock = document.querySelector(".btn");
-setInterval(function(){
-    let date = new Date();
-    // console.log(date.toLocaleTimeString());
-    clock.innerHTML = date.toLocaleTimeString();
-},1000)
-    </script>
 </body>
 </html>
